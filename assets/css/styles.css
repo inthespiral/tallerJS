@@ -17,6 +17,7 @@ body{
 }
 .btnPublicar{
   border-radius: 15px;
+  float: right;
 }
 
 li{
@@ -24,12 +25,16 @@ li{
 }
 
 .like{
-  color: lightgray;
+  color: 	#B0C4DE;
 }
 
 .eliminarTwitt{
   color: black;
 }
 .likeable{
-  color: red;
+  color: 	#FF4500;
+}
+h4 span{
+  font-size: 0.8em;
+  color: rgba(120, 120, 120,0.8);
 }

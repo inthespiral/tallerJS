@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,54 +8,62 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <title>Mini Twitter</title>
 </head>
+
 <body>
-<div class="row">
-<article class="publicar p-3 col-sm-12 col-md-6" >
-  <section class="container bg-light pt-2 pb-2">
-    <div class="row">
-      <div class="col-sm-2 col-md-1">
-    <img class="imgPerfil" src="http://hipnosis24horas.com/wp-content/themes/OptimizePress/timthumb.php?src=http://hipnosis24horas.com/wp-content/uploads/hipnosis1872-216x300.jpg&h=200&w=200&zc=1" alt="">
-    </div>
-    <div class="textarea col-sm-10 col-md-11">
-      <form class="">
-        <textarea class="inputPerfil" type="text" name="" value="" placeholder="¿Que pienzas?"></textarea>
-        <button type="button" class="btn btn-success btnPublicar">Publicar</button>
-      </form>
+  <div class="row">
+    <div class="col-sm-12 col-md-6">
+      <!-- Area de texto para publicar -->
+      <article class="p-2">
+        <section class="container bg-light pt-2 pb-2 rounded">
+          <div class="row">
+            <div class="col-sm-2 col-md-1">
+              <img class="imgPerfil img-fluid" src="http://hipnosis24horas.com/wp-content/themes/OptimizePress/timthumb.php?src=http://hipnosis24horas.com/wp-content/uploads/hipnosis1872-216x300.jpg&h=200&w=200&zc=1" alt="">
+            </div>
+            <div class="col-sm-10 col-md-11">
 
+              <textarea class="inputPerfil" type="text" name="" value="" placeholder="¿Que piensas?"></textarea>
+              <button type="button" class="btn btn-success btnPublicar">Publicar</button>
+
+            </div>
+          </div>
+        </section>
+      </article>
     </div>
+    <div class="col-sm-12 col-md-6">
+      <!-- Area donde se muestran las publicaciones -->
+      <article class="publicaciones p-2">
+        <!-- <section class="container bg-light mb-2 pt-1">
+          <div class="row">
+            <div class="col-1">
+              <img class="imgPerfil img-fluid" src="http://hipnosis24horas.com/wp-content/themes/OptimizePress/timthumb.php?src=http://hipnosis24horas.com/wp-content/uploads/hipnosis1872-216x300.jpg&h=200&w=200&zc=1" alt="">
+            </div>
+            <div class="col-10">
+              <h4>Pensador <span>@pensa</span></h4>
+              <p>' + $('.inputPerfil').val() + '</p>
+              <p><a class="like" href="#"><i class="far fa-heart"></i></a><span class="contador">0</span></p>
+            </div>
+            <div class="col-1"><a class="eliminarTwitt" href="#"><i class="fas fa-times"></i></a>
+            </div>
+          </div>
+        </section> -->
+      </article>
     </div>
-  </section>
-</article>
-<article class="publicaciones p-3 col-sm-12 col-md-6">
-  <!-- <section class="row container bg-light">
-    <div class="col-1">
-      <img class="imgPerfil" src="http://hipnosis24horas.com/wp-content/themes/OptimizePress/timthumb.php?src=http://hipnosis24horas.com/wp-content/uploads/hipnosis1872-216x300.jpg&h=200&w=200&zc=1" alt="">
-    </div>
-    <div class="col-10">
-      <h4>Usuario <span>@user</span></h4>
-      <p>Mi primer MiniTwitt!!</p>
-      <p>
-      <a class="like" href="#"><i class="far fa-heart"></i></a><span class="contador"></span>
-    </p>
-    </div>
-    <div class="col-1">
-      <a class="eliminarTwitt"href="#"><i class="fas fa-times"></i></a>
-    </div>
-  </section> -->
-</article>
-</div>
+
+
+
+
+  </div>
 
 
 
 
 
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<script src="assets/js/script.js" type="text/javascript"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src="assets/js/script.js" type="text/javascript"></script>
 
 </body>
+
 </html>
