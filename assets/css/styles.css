@@ -1,0 +1,35 @@
+body{
+  background-color: lightgray;
+}
+
+.imgPerfil{
+  border-radius: 50%;
+  max-width: 50px;
+
+}
+
+.inputPerfil{
+  border-radius: 20px;
+  height: 4rem;
+  resize: none;
+  width: 100%;
+  overflow: hidden;
+}
+.btnPublicar{
+  border-radius: 15px;
+}
+
+li{
+  list-style: none;
+}
+
+.like{
+  color: lightgray;
+}
+
+.eliminarTwitt{
+  color: black;
+}
+.likeable{
+  color: red;
+}
